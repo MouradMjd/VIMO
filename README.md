@@ -1,5 +1,6 @@
 # VIMO: Encyclopedic Visual Question Answering with Multimodal Agentic RAG
 ![alt text](image.png)
+
 This repository contains the full implementation and evaluation code for a comparative study of four pipelines for **Encyclopedic Visual Question Answering (EVQA)**: a plain Vision-Language Model (VLM), a non-agentic Retrieval-Augmented Generation system (RAG), and two Agentic RAG (ARAG) systems built around a ReAct agent, differing only in their generator/controller backbone (Qwen2.5-VL-3B-Instruct vs Qwen3-VL-8B-Instruct).
 
 All retrieval-based systems share the same visual retrieval backbone: **EVA-CLIP-8B** embeddings indexed with **FAISS** over ~55,000 Wikipedia images, linked to a local Wikipedia knowledge base (title, sections, and images per article).
