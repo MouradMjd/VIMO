@@ -5,8 +5,10 @@ This repository contains the full implementation and evaluation code for a compa
 
 All retrieval-based systems share the same visual retrieval backbone: **EVA-CLIP-8B** embeddings indexed with **FAISS** over ~55,000 Wikipedia images, linked to a local Wikipedia knowledge base (title, sections, and images per article).
 
-![alt text](image-2.png)
+![alt text](image-1.png)
 ---
+
+![alt text](image-3.png)
 
 ## 1. Project Overview
 
